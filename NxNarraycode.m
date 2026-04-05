@@ -1,6 +1,5 @@
 % Simulations In Three Dimensions for NxN array
-folder=fileparts(which(mfileName));
-addpath(genpath(pwd))
+
 clearvars; 
 
 % ========= Grid Set Up ===================================================
