@@ -1,5 +1,5 @@
 # NxN-Ultrasonic-Array
-Beamsteering 2 NxN stacked vertically toward a common focal point
+Beamsteering 2 NxN stacked vertically toward a common focal point made using K-wave library
 
 - To run the script, use below command at matlab command line:
 1) Add the downloaded folder/subfolder and files to the path
