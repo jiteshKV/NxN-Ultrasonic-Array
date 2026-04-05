@@ -14,9 +14,9 @@ dz = 0.1e-2;        % grid point spacing in the z direction [m]
 kgrid = kWaveGrid(Nx, dx, Ny, dy, Nz, dz);
 
 % Focus point coordinates in meters
-fX=0.024;%0.032;
-fY=-0.024;%0.015;
-fZ=-0.024;%0.015;
+fX=0.024;
+fY=-0.024;
+fZ=-0.024;
 narray=5;   % N in NxN arrat
 
 
@@ -24,7 +24,7 @@ narray=5;   % N in NxN arrat
 
 % ========= Medium Set Up ===================================================
 % define the properties of the propagation medium
-medium.sound_speed = 343; %* ones(Nx, Ny, Nz);	% [m/s]
+medium.sound_speed = 343;	% [m/s]
 
 
 % create the time array
